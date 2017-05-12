@@ -1,0 +1,17 @@
+{
+  "name": "Test",
+  "license": "",
+  "authors": "Le Guevel Francois, William Yim",
+  "description": "server side nodejs => client side java for android",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7"
+  }
+}
