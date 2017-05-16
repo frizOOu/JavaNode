@@ -6,16 +6,21 @@ Client JAVA (Android) => Server NodeJs
 * [Node.js](https://nodejs.org): runtime environment
 * [Android Studio (JAVA)](https://developer.android.com/studio/) : frontend framework
 
-## Prerequisites
+## Prérequis
 
 1. Installer [Node.js](https://nodejs.org) et [MongoDB](https://www.mongodb.com)
 2. Depuis la racine du projet installer toute les dépendances via npm (Node Package Manager) : `npm i`
-
+x
 ### Démarrage
 
-Ouvrir deux terminaux : 
+**Connection à MongoDB**
+
+- Ouvrir deux terminaux :
+
 1. Terminal 1: `mongod`: démarrer le serveur MongoDB
 2. Terminal 2: `npm start` : démarrer le serveur NodeJs
+
+*Connection à PostgreSQL : 
 
 #### Auteurs 
 Le Guével François : fleguevel@bgficonsulting.com
